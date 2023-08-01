@@ -24,7 +24,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/flower_atw"
             tools:layout_editor_absoluteX="-1dp"
-            tools:scrollbarSize="215dp" />
+            tools:scrollbarSize="215dp"
+            tools:ignore="MissingConstraints" />
 
         <ImageView
             android:id="@+id/imgV_flower_atw_bottom"
@@ -36,7 +37,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imgV_flower_atw_top"
             app:srcCompat="@drawable/flower_atw"
-            tools:layout_editor_absoluteX="0dp" />
+            tools:layout_editor_absoluteX="0dp"
+            tools:ignore="MissingConstraints" />
 
         <ImageView
             android:id="@+id/imgV_Logo"

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ProjectMJ</string>
+    <string name="athcar">الاذكار</string>
+    <string name="quran">قران</string>
+    <string name="qubla">القبلة</string>
 </resources>
