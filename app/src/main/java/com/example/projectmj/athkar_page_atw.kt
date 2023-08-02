@@ -3,9 +3,9 @@ package com.example.projectmj
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class athkar_page_atw : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.launch_screen_atw)
+        setContentView(R.layout.athkar_page_atw)
     }
 }
