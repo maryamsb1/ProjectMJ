@@ -1,55 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#224C4A"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="-80dp">
+        android:background="#224C4A">
 
-        <ImageView
-            android:id="@+id/imgV_flower_atw_top"
-            android:layout_width="412dp"
-            android:layout_height="417dp"
-            android:layout_marginTop="-210dp"
-            android:scaleType="fitCenter"
-            android:visibility="visible"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/flower_atw"
-            tools:layout_editor_absoluteX="-1dp"
-            tools:scrollbarSize="215dp" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imgV_flower_atw_bottom"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="132dp"
-            android:layout_marginBottom="-400dp"
-            android:visibility="visible"
-           app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imgV_flower_atw_top"
-            app:srcCompat="@drawable/flower_atw"
-            tools:layout_editor_absoluteX="0dp" />
+            <ImageView
+                android:id="@+id/imgV_wall1"
+                android:layout_width="418dp"
+                android:layout_height="859dp"
+                app:srcCompat="@drawable/wall1" />
 
-        <ImageView
-            android:id="@+id/imgV_Logo"
-            android:layout_width="309dp"
-            android:layout_height="719dp"
-            android:layout_marginBottom="16dp"
-            android:adjustViewBounds="false"
-            android:scaleType="centerInside"
-            android:visibility="visible"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/logo_atw_light" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imgV_Logo"
+                    android:layout_width="274dp"
+                    android:layout_height="274dp"
+                    android:adjustViewBounds="false"
+                    android:scaleType="centerInside"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/logo_atw_light" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </FrameLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

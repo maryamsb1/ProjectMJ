@@ -4,6 +4,10 @@ plugins {
 }
 
 android {
+    buildFeatures {
+
+      viewBinding = true
+    }
     namespace = "com.example.projectmj"
     compileSdk = 33
 
@@ -33,6 +37,8 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+
 }
 
 dependencies {
