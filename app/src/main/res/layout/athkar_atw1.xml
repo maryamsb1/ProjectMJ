@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,10 +11,11 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <ImageView
             android:id="@+id/imgV_wall2"
             android:layout_width="match_parent"
-            android:layout_height="864dp"
+            android:layout_height="match_parent"
             app:srcCompat="@drawable/wall3" />
     </FrameLayout>
 
@@ -27,7 +29,7 @@
         <TextView
             android:id="@+id/tv_athkar1"
             android:layout_width="300dp"
-            android:layout_height="336dp"
+            android:layout_height="229dp"
             android:layout_gravity="center"
             android:background="#FFF9F6"
             android:ellipsize="start"
