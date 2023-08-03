@@ -4,13 +4,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 
-class athkar_page_atw : AppCompatActivity() {
+class athkar_atw2 : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
 
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.athkar_page_atw)
+        setContentView(R.layout.athkar_atw2)
     }
 }

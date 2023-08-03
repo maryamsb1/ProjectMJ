@@ -6,7 +6,7 @@ import com.example.projectmj.databinding.LaunchScreenAtwBinding.inflate
 import com.example.projectmj.databinding.LaunchScreenAtwBinding
 
 
-class MA_launch_screen: AppCompatActivity() {
+class MA_launch_screen_atw: AppCompatActivity() {
 
     private lateinit var binding: LaunchScreenAtwBinding
 

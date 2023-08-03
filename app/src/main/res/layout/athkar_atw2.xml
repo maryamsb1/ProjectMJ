@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#224C4A"
-        tools:context=".athkar_page_atw">
+        tools:context=".athkar_atw2">
 
         <FrameLayout
             android:layout_width="match_parent"
