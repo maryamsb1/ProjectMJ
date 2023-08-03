@@ -10,9 +10,8 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <ImageView
-            android:id="@+id/imgV_wall3"
+            android:id="@+id/imgV_wall2"
             android:layout_width="match_parent"
             android:layout_height="864dp"
             app:srcCompat="@drawable/wall3" />
@@ -28,7 +27,7 @@
         <TextView
             android:id="@+id/tv_athkar1"
             android:layout_width="300dp"
-            android:layout_height="226dp"
+            android:layout_height="336dp"
             android:layout_gravity="center"
             android:background="#FFF9F6"
             android:ellipsize="start"
@@ -68,7 +67,6 @@
         </LinearLayout>
 
     </LinearLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

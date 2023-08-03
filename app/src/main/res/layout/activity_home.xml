@@ -57,6 +57,7 @@
         tools:ignore="MissingConstraints">
 
 
+<!--
         <com.smarteist.autoimageslider.SliderView
             android:id="@+id/imageSlider"
             android:layout_width="match_parent"
@@ -75,6 +76,7 @@
             app:sliderScrollTimeInSec="5"
             app:sliderStartAutoCycle="true"
             tools:ignore="MissingClass" />
+-->
 
     </androidx.cardview.widget.CardView>
 
