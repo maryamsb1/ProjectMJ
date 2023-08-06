@@ -15,12 +15,7 @@
         <activity
             android:name=".athkar_atw1"
             android:exported="false" />
-<!--
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
--->
+
 
         <activity
             android:name=".MA_launch_screen_atw"
@@ -31,11 +26,12 @@
             android:name=".athkar_atw2"
             android:exported="true">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
+           <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
 
 
         </activity>

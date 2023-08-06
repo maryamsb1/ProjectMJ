@@ -4,10 +4,13 @@ plugins {
 }
 
 android {
+
     buildFeatures {
         viewBinding = true
         dataBinding = true
     }
+
+
     namespace = "com.example.projectmj"
     compileSdk = 33
 
