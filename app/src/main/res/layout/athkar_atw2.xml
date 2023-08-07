@@ -30,7 +30,7 @@
             <TextView
                 android:id="@+id/tv_athkar2"
                 android:layout_width="300dp"
-                android:layout_height="343dp"
+                android:layout_height="232dp"
                 android:layout_gravity="center"
                 android:background="#FFF9F6"
                 android:ellipsize="start"

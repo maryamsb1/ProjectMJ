@@ -12,29 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectMJ"
         tools:targetApi="31">
-        <activity
-            android:name=".athkar_atw1"
-            android:exported="false" />
-
 
         <activity
             android:name=".MA_launch_screen_atw"
-            android:exported="false">
+            android:exported="true"></activity>
 
-        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"></activity>
+
+        <activity
+            android:name=".athkar_atw1"
+            android:exported="false"></activity>
+
         <activity
             android:name=".athkar_atw2"
-            android:exported="true">
+            android:exported="false"></activity>
 
 
-           <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-
-
-        </activity>
     </application>
 
 </manifest>
